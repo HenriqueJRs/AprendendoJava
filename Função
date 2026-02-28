@@ -1,0 +1,16 @@
+// funções em java
+
+public class Main {
+
+     public static void main(String[] args) {
+          int n1 = 10; // declaração de variáveis
+          int n2 = 15;
+          sum(n1,n2); // invocação da função
+     }
+     // construção da função
+     static void sum(int n1, int n2){
+
+          System.out.println(n1 + n2);
+          //saída de dados
+     }
+}
