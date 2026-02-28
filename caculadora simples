@@ -1,0 +1,25 @@
+public class calculadora {
+
+    public static void main(String[] args) {
+    int x =  10 ;
+    int y = 15;
+    soma(x,y);
+    sub (x,y);
+    separa(x,y);
+    multiplica(x,y);
+    }
+  static  void soma(int x,int y){
+      System.out.println(x+y);
+  }
+    static  void sub(int x,int y){
+        System.out.println(x-y);
+    }
+    static void separa(int x,int y){
+        System.out.println(x/y);
+    }
+    static void multiplica(int x,int y){
+        System.out.println(x*y);
+    }
+
+
+}
